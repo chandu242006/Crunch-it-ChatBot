@@ -1,0 +1,24 @@
+# Dependencies (Never commit node_modules, it is huge and installed via npm install)
+node_modules/
+
+# Environment Variables & Secrets (CRITICAL: Never expose your Twilio keys or email passwords!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Code Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

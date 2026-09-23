@@ -1,0 +1,24 @@
+{
+  "name": "crunch-it-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot for Crunch-it Cafeteria powered by Twilio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.22.2",
+    "nodemailer": "^9.0.3",
+    "twilio": "^5.13.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "cafeteria",
+    "twilio"
+  ],
+  "author": "Crunch-it",
+  "license": "MIT"
+}
